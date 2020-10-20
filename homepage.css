@@ -1,9 +1,25 @@
+html, body, footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
 .home {
     text-align: center;
 }
 img {
     width: 100%;
 }
-.row {
-    width: 100%;
+.container {
+    max-width: 100%;
+}
+#footer-social {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
 }
