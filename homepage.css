@@ -1,19 +1,45 @@
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+.icon-header-img {
+    width: 30px;
+}
 
 .homepage-section {
     margin-top: 30px;
     text-align: center;
 }
 
-img {
+.occasion-image {
     width: 100%;
 }
+
 .container {
     max-width: 100%;
 }
 
-.carousel-inner {
-    max-height: 400px;
+/* @media (max-width: 576px) {
+    .carousel-inner {
+        height: 360px;
+        width: 100%;
+    }
 }
+
+.carousel-inner {
+    height: 460px;
+    width: 100%;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
 
 #footer-social {
     display: flex;
@@ -32,7 +58,8 @@ footer {
     max-width: 70%;
     font-size: 1.3em;
 }
-footer img {
+
+.icons-img {
     width: 37px;
     margin: 10px;
 }
