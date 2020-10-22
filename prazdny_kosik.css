@@ -1,0 +1,36 @@
+section {
+    text-align: center;
+}
+
+.section-prazdny-kosik {
+    min-height: 500px;
+}
+
+h1 {
+    margin-top: 16px;
+}
+
+.section-prazdny-kosik p {
+    margin-top: 16px;
+}
+
+.button-ponuka-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+}
+
+.button-ponuka-row a {
+    background-color: transparent;
+}
+
+.button-ponuka {
+    border: black 1px;
+    background-color: white;
+    padding: 12px 16px;
+    color: #000;
+    display: inline-block;
+}
+

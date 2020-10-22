@@ -36,10 +36,15 @@
 }
 
 /* navbar sa v istom bode zvacsuje */
-/* .navbar {
+.navbar-collapse .collapse{
     height: 56px;
 }
-.navbar-collapse {
+
+/* .navbar-collapse {
+    align-items: start;
+} */
+
+/* .navbar-collapse {
     align-items: center;
 } */
 

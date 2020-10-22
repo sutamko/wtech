@@ -29,7 +29,7 @@ footer {
     padding-top: 10px;
     margin: auto;
     max-width: 70%;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
 }
 
 .icons-img {
@@ -39,7 +39,7 @@ footer {
 
 #footer-container {
     max-width: 500px;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
 }
 
 footer div h2 {
@@ -50,4 +50,8 @@ footer div h2 {
 footer div p {
     margin-bottom: 0;
     padding: 1.2rem;
+}
+
+a {
+    color: black;
 }
