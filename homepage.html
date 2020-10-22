@@ -92,7 +92,18 @@
             <div class="row">
               <div class="col-md">
                 <a href="#">
-                    <img class="occasion-image" src="obrazky/svadba-600_400.jpg" alt="Svatba">
+                   
+                    <img class="occasion-image"
+                    srcset="obrazky/svadba-450_300.jpg 450w,
+                            obrazky/svadba-600_400.jpg 600w,
+                            obrazky/svadba-900_600.jpg 900w"
+
+                    sizes="(max-width: 576px) 450px,
+                          (max-width: 768px) 600px,
+                          900px"
+                         
+                    src="obrazky/svadba-600_400.jpg"
+                    alt="Svadba">
                     <h4>Svadba</h4>                        
                 </a>
               </div>
