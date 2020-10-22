@@ -6,6 +6,12 @@
     }
 }
 
+/* @media (max-width: 767px) {
+    .navbar-icons {
+        display: none;
+    }
+} */
+
 .user-icon {
     margin-left: 10px;
     margin-right: 10px;
@@ -84,8 +90,9 @@
         top: 0;
         left: 0;
         min-width: 100%;
-        min-height: 450px;
+        max-height: 450px;
         max-width: none;
+        object-fit: cover;
     }
 }
 
