@@ -34,22 +34,40 @@
     margin-bottom: 0;
 }
 
+.homepage-products {
+    margin-top: 18px;
+}
+
 .homepage-products h4 {
     margin-bottom: 12px;
+}
+
+@media (max-width: 767px) {
+    .homepage-occasion h4 {
+        margin-bottom: 12px;
+    }
+
 }
 
 .icon-header-img {
     width: 30px;
 }
 
-.homepage-occasion .row {
+.homepage-section .row {
     margin-left: 0;
     margin-right: 0;
 }
 
 .occasion-image-middle {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .occasion-image-middle {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .container {
