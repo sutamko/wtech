@@ -32,3 +32,22 @@ img {
 .dropdown button {
     width: 120px;
 }
+
+.card {
+    margin-bottom: 15px;
+}
+
+.card h5 {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text:last-child {
+    margin-bottom: 10px;
+}
