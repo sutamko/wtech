@@ -26,6 +26,13 @@
     font-weight: bold;
 }
 
+.btn-secondary {
+    color: #000;
+    background-color: transparent;
+    border-color: #6c757d;
+    border-radius: 0%;
+}
+
 #footer-social {
     display: flex;
     list-style-type: none;
