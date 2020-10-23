@@ -1,3 +1,4 @@
+/* zvacsuje vzdialenost medzi nadpismi v navbare*/
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 1rem;
@@ -5,15 +6,29 @@
     }
 }
 
+/* nastavenia navbaru*/
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-weight: bold;
+}
+
+/* ikonky v hlavicke*/
 .user-icon {
+    width: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    content:url("https://www.flaticon.com/svg/static/icons/svg/929/929564.svg");
 }
 
-.icon-header-img {
+.shopping-bag-icon {
     width: 30px;
+    content:url("https://www.flaticon.com/svg/static/icons/svg/126/126515.svg")
 }
 
+/*breadcrumb pouzivany napriklad v archive a v detaile*/
 .breadcrumb {
     background-color: transparent;
     padding-left: 30px;
@@ -26,11 +41,23 @@
     font-weight: bold;
 }
 
+/* buttony */
 .btn-secondary {
     color: #000;
     background-color: transparent;
     border-color: #6c757d;
     border-radius: 0%;
+}
+
+/* farba odkazu */
+a {
+    color: black;
+}
+
+/* v paticke */
+.icons-img {
+    width: 37px;
+    margin: 10px;
 }
 
 #footer-social {
@@ -51,11 +78,6 @@ footer {
     /* font-size: 1.3em; */
 }
 
-.icons-img {
-    width: 37px;
-    margin: 10px;
-}
-
 #footer-container {
     max-width: 500px;
     /* font-size: 1.3em; */
@@ -69,8 +91,4 @@ footer div h2 {
 footer div p {
     margin-bottom: 0;
     padding: 1.2rem;
-}
-
-a {
-    color: black;
 }
