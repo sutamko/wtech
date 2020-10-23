@@ -14,6 +14,18 @@
     width: 30px;
 }
 
+.breadcrumb {
+    background-color: transparent;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb a {
+    color: black;
+    font-weight: bold;
+}
+
 #footer-social {
     display: flex;
     list-style-type: none;
