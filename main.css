@@ -50,7 +50,7 @@
 }
 
 .search-icon {
-    width: 20px;
+    width: 30px;
     content:url("https://www.flaticon.com/svg/static/icons/svg/622/622669.svg");
 }
 
@@ -62,8 +62,6 @@
 #button_search {
     border: 0;
     background-color: transparent;
-    position: absolute;
-    margin-left: 170px;
 }
 
 /*breadcrumb pouzivany napriklad v archive a v detaile*/

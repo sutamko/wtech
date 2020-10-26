@@ -1,0 +1,31 @@
+main {
+    margin: 80px;
+}
+
+body main div {  
+    padding-top: 50px;
+    padding-bottom: 50px;  
+    margin: 25px auto;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 75px;
+}
+
+body main button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
