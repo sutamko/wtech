@@ -46,6 +46,15 @@
     }
 }
 
+.product-detail-form {
+    padding-right: 50%;
+}
+
+.product-info {
+    padding: 15px;
+    background-color: #f8f9fa; 
+}
+
 
 /* .btn-secondary.focus, .btn-secondary:focus {
     color: #fff;
