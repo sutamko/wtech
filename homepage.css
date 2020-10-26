@@ -4,12 +4,21 @@
     }
 } */
 
+/*main carousel section*/
+.homepage-carousel {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .homepage-carousel h1 {
     margin-bottom: 50px;
 }
 
+/*main two sections after carousel*/
 .homepage-section {
-    margin-top: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -22,17 +31,23 @@
     margin-bottom: 12px;
 }
 
+.homepage-section .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*main occasion section*/
 .homepage-occasion h4 {
     margin-top: 8px;
     margin-bottom: 0;
 }
 
+/*main products section*/
 .homepage-products {
-    margin-top: 18px;
+    margin-bottom: 50px;
 }
-
 .homepage-products h4 {
-    margin-bottom: 12px;
+    margin-bottom: 45px;
 }
 
 /* navbar sa v istom bode zvacsuje */
@@ -54,10 +69,7 @@
     }
 }
 
-.homepage-section .row {
-    margin-left: 0;
-    margin-right: 0;
-}
+
 
 .occasion-image-middle {
     padding-left: 15px;
@@ -95,4 +107,8 @@
 
 a {
     color: black;
+}
+
+hr {
+    margin: 25px 10px;
 }
