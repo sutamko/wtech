@@ -15,7 +15,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="menu_navbar">
               <li class="nav-item">
                 <a class="nav-link" href="#">KM</a>
               </li>
@@ -32,14 +32,26 @@
                 <a class="nav-link" href="#">Kontakt</a>
               </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Vyhľadať" aria-label="Search">
+            <form class="form-inline my-2 my-lg-0" id="form_search">
+              <input class="form-control mr-sm-2" type="search" placeholder="Vyhľadať" aria-label="Search" id="search_input">
+              <button type="submit" id="button_search">
+                <img class="search-icon">
+              </button>
             </form>
           </div>
           <div class="navbar-icons">
-            <a href="#">
-              <img class="user-icon">        
-            </a>
+
+            <div class="btn-group dropleft" id="user_button">
+              <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="user-icon">
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Prihlásený: Matúš Miklovič</a>
+                <a class="dropdown-item" href="#">Profil</a>
+                <a class="dropdown-item" href="#">Odhlásiť sa</a>
+              </div>
+            </div>
+
             <a href="#">
               <img class="shopping-bag-icon">        
             </a>

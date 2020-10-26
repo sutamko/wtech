@@ -18,14 +18,45 @@
 /* ikonky v hlavicke*/
 .user-icon {
     width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
     content:url("https://www.flaticon.com/svg/static/icons/svg/929/929564.svg");
+}
+
+#user_button {
+    display: inline;
+}
+
+#user_button > #dropdownMenuButton {
+    border: 0;
+    padding: 0;
 }
 
 .shopping-bag-icon {
     width: 30px;
-    content:url("https://www.flaticon.com/svg/static/icons/svg/126/126515.svg")
+    content:url("https://www.flaticon.com/svg/static/icons/svg/126/126515.svg");
+}
+
+#form_search {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#menu_navbar {
+    margin-top: 0 !important;
+}
+
+.search-icon {
+    width: 30px;
+    content:url("https://www.flaticon.com/svg/static/icons/svg/622/622669.svg");
+}
+
+#search_input {
+    margin-right: 8px;
+    width: auto;
+}
+
+#button_search {
+    border: 0;
+    background-color: transparent;
 }
 
 /*breadcrumb pouzivany napriklad v archive a v detaile*/
