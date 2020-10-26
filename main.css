@@ -16,6 +16,7 @@
 }
 
 /* ikonky v hlavicke*/
+
 .user-icon {
     width: 30px;
     content:url("https://www.flaticon.com/svg/static/icons/svg/929/929564.svg");
@@ -23,6 +24,10 @@
 
 #user_button {
     display: inline;
+}
+
+#user_button button {
+    background-color: transparent;
 }
 
 #user_button > #dropdownMenuButton {
@@ -45,7 +50,7 @@
 }
 
 .search-icon {
-    width: 30px;
+    width: 20px;
     content:url("https://www.flaticon.com/svg/static/icons/svg/622/622669.svg");
 }
 
@@ -57,6 +62,8 @@
 #button_search {
     border: 0;
     background-color: transparent;
+    position: absolute;
+    margin-left: 170px;
 }
 
 /*breadcrumb pouzivany napriklad v archive a v detaile*/
@@ -79,6 +86,11 @@
     border-color: #6c757d;
     border-radius: 0%;
 }
+
+.btn.focus, .btn:focus, .btn-secondary.focus, .btn-secondary:focus, .btn-secondary:hover {
+    box-shadow: none;
+}
+
 
 /* farba odkazu */
 a {
