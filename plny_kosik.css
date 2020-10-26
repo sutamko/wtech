@@ -1,0 +1,52 @@
+main {
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+h1 {
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+#inputState {
+    max-width: 120px;
+}
+
+.product_image {
+    width: 100%;
+    float: left;
+}
+
+.delete_button {
+    background-color: transparent;
+    border: 0;
+    float: right;
+
+}
+
+.delete-icon {
+    width: 20px;
+    content:url("https://www.flaticon.com/svg/static/icons/svg/748/748122.svg");
+}
+
+.price_group {
+    margin-top: 2.5em;
+}
+
+.form-group {
+    margin: 8px 0;
+}
+
+
+#pay_button {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+
