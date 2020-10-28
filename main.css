@@ -67,9 +67,13 @@
 /*breadcrumb pouzivany napriklad v archive a v detaile*/
 .breadcrumb {
     background-color: transparent;
-    padding-left: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 14px;
+}
+
+.navbar-search-input {
+    margin-right: 0!important;
 }
 
 .breadcrumb a {

@@ -33,7 +33,7 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0" id="form_search">
-            <input class="form-control mr-sm-2" type="search" placeholder="Vyhľadať" aria-label="Search" id="search_input">
+            <input class="form-control mr-sm-2 navbar-search-input" type="search" placeholder="Vyhľadať" aria-label="Search" id="search_input">
             <button type="submit" id="button_search">
               <img class="search-icon">
             </button>
@@ -74,146 +74,11 @@
           <h3 class="product-name">OBLEKY</h3>
 
           <form>
-            <!-- <div class="container-fluid filter-container">
-              <div class="row filter-row">
-                <div class="col-8">
-                  <div class="container-fluid filter-only">
-                    <div class="row">
-                      <div class="col-12 col-sm-6 col-md-3">  
-                        <div class="dropdown">
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Cena
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">48</a>
-                            <a class="dropdown-item" href="#">50</a>
-                            <a class="dropdown-item" href="#">52</a>
-                            <a class="dropdown-item" href="#">54</a>
-                          </div>
-                        </div>
-                      </div>
-      
-                      <div class="col-12 col-sm-6 col-md-3">
-                        <div class="dropdown">
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Veľkosť
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                48
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                50
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                52
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                54
-                              </label>
-                            </div>
-                            <button type="submit" class="btn btn-secondary">Filtrovať</button>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div class="col-12 col-sm-6 col-md-3">
-                        <div class="dropdown">
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Farba
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                biela
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                čierna
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                modrá
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                zelená
-                              </label>
-                            </div>
-                            <button type="submit" class="btn btn-secondary">Filtrovať</button>
-                          </div>
-                        </div>
-                      </div>
-      
-                      <div class="col-12 col-sm-6 col-md-3">
-                        <div class="dropdown">
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Príležitosť
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                svadba
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                stužková
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                              <label class="form-check-label" for="defaultCheck1">
-                                ples
-                              </label>
-                            </div>
-                            <button type="submit" class="btn btn-secondary">Filtrovať</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-               
-                <div class="col-4 sort-row">
-                  <div class="btn-group dropleft float-right">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Zoradiť
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Od najlacnejšieho</a>
-                      <a class="dropdown-item" href="#">Od najdrahšieho</a>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div> -->
-            
+          
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-filter">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span>
-                  <img src="filter2.svg" alt="" style="width:30px"></img>
+                  <img src="obrazky/filter2.svg" alt="" style="width:30px"></img>
                 </span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -342,8 +207,6 @@
                 </ul>
               </div>
             </nav>
-
-
           </form>
 
           <div class="container-fluid archiv-container">

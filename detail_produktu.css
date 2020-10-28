@@ -1,3 +1,34 @@
+#added-product {
+    width: 90%;
+    border: 1px solid black;
+    padding: 15px;
+    position: absolute;
+    right: 5px;
+    top: 60px;
+    background-color: white;
+    z-index: 5;
+}
+
+@media (min-width: 576px) {
+    #added-product {
+        width: 380px;
+    }
+}
+
+#added-product .added-product-description {
+    display: flex;
+    flex-direction: column;
+}
+
+#added-product h2 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+#added-product h3 {
+    font-size: 1rem;
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;

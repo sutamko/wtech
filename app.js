@@ -7,3 +7,12 @@ document.getElementById("navbar-toggler-button").addEventListener("click", funct
       icons.style.display = 'block';
     }
   });
+
+document.getElementById("add-to-bag-btn").addEventListener("click", function() {
+    var cardAdded = document.getElementById("added-product");
+    cardAdded.style.display = 'block';
+});
+
+document.getElementById("added-product").addEventListener("click", function() {
+  document.getElementById("added-product").style.display = 'none';
+});
