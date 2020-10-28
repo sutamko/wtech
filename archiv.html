@@ -11,51 +11,51 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <button id="navbar-toggler-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="myclass collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="menu_navbar">
-              <li class="nav-item">
-                <a class="nav-link" href="homepage.html">KM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="homepage.html">Domov<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="produkty.html">Produkty</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="o_nas.html">O nás</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="kontakt.html">Kontakt</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0" id="form_search">
-              <input class="form-control mr-sm-2" type="search" placeholder="Vyhľadať" aria-label="Search" id="search_input">
-              <button type="submit" id="button_search">
-                <img class="search-icon">
-              </button>
-            </form>
-          </div>
-          <div class="navbar-icons">
-            <div class="btn-group dropleft" id="user_button">
-              <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="user-icon">
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <span class="dropdown-item">Prihlásený: <span id="signed_user">Matúš Miklovič</span></span>
-                <form>
-                  <a class="dropdown-item" href="#">Odhlásiť sa</a>
-                </form>
-              </div>
+        <button id="navbar-toggler-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="myclass collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="menu_navbar">
+            <li class="nav-item">
+              <a class="nav-link" href="homepage.html">KM</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="homepage.html">Domov<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produkty.html">Produkty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="o_nas.html">O nás</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" id="form_search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Vyhľadať" aria-label="Search" id="search_input">
+            <button type="submit" id="button_search">
+              <img class="search-icon">
+            </button>
+          </form>
+        </div>
+        <div class="navbar-icons">
+          <div class="btn-group dropleft" id="user_button">
+            <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="user-icon">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <span class="dropdown-item">Prihlásený: <span id="signed_user">NIKTO</span></span>
+              <form>
+                <a class="dropdown-item" href="prihlasenie.html">Prihlásiť sa</a>
+              </form>
             </div>
-            <a href="prazdny_kosik.html">
-              <img class="shopping-bag-icon">        
-            </a>
           </div>
-        </nav>
+          <a href="prazdny_kosik.html">
+            <img class="shopping-bag-icon">        
+          </a>
+        </div>
+      </nav>
     </header>
 
     <main>
@@ -74,7 +74,7 @@
           <h3 class="product-name">OBLEKY</h3>
 
           <form>
-            <div class="container-fluid filter-container">
+            <!-- <div class="container-fluid filter-container">
               <div class="row filter-row">
                 <div class="col-8">
                   <div class="container-fluid filter-only">
@@ -208,7 +208,139 @@
                 </div>
 
               </div>
-            </div>
+            </div> -->
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-filter">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Cena
+                    </a>
+                    <div class="dropdown-menu price-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Od</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="napíšte cenu">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Do</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="napíšte cenu">
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                      <!-- <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Veľkosť
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          48
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          50
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          52
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          54
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Farba
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          biela
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          čierna
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          modrá
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          zelená
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Príležitosť
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          svadba
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          stužková
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          ples
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Zoradiť
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#">Od najlacnejšieho</a>
+                      <a class="dropdown-item" href="#">Od najdrahšieho</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Zrušiť filtre</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
 
           </form>
 

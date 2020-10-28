@@ -20,6 +20,15 @@ img {
     }
 }
 
+.bg-light.navbar-filter {
+    background-color: transparent!important;
+}
+
+.dropdown-menu.show.price-menu  {
+    padding-left: 8px; 
+    padding-right: 8px;
+}
+
 .filter-only {
     padding-left: 0;
 }
