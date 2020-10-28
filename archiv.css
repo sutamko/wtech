@@ -65,12 +65,16 @@ main .btn {
     margin-right: 0;
 }
 
+.archiv-column {
+    margin-bottom: 15px;
+}
+
 .dropdown button {
     width: 110px;
 }
 
 .card {
-    margin-bottom: 15px;
+    height: 100%;
 }
 
 .card h5 {

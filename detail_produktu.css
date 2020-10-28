@@ -47,6 +47,7 @@ main {
 
 .product-name {
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .price {

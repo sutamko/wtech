@@ -82,15 +82,16 @@
 }
 
 /* buttony */
-.btn-secondary {
+.btn-primary {
     color: #000;
     background-color: transparent;
     border-color: #6c757d;
     border-radius: 0%;
 }
 
-.btn.focus, .btn:focus, .btn-secondary.focus, .btn-secondary:focus, .btn-secondary:hover {
+.btn-primary:focus, .btn-primary:hover, .btn:active, .btn:visited {
     box-shadow: none;
+    background-color: #002b73;
 }
 
 

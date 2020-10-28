@@ -41,7 +41,7 @@
         </div>
         <div class="navbar-icons">
           <div class="btn-group dropleft" id="user_button">
-            <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-primary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img class="user-icon">
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -96,7 +96,7 @@
                         <label for="exampleInputEmail1">Do</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="napíšte cenu">
                       </div>
-                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                      <button type="submit" class="btn btn-primary">Filtrovať</button>
                       <!-- <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <a class="dropdown-item" href="#">Something else here</a> -->
@@ -131,7 +131,7 @@
                           54
                         </label>
                       </div>
-                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                      <button type="submit" class="btn btn-primary">Filtrovať</button>
                     </div>
                   </li>
                   <li class="nav-item dropdown">
@@ -163,7 +163,7 @@
                           zelená
                         </label>
                       </div>
-                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                      <button type="submit" class="btn btn-primary">Filtrovať</button>
                     </div>
                   </li>
                   <li class="nav-item dropdown">
@@ -189,7 +189,7 @@
                           ples
                         </label>
                       </div>
-                      <button type="submit" class="btn btn-secondary">Filtrovať</button>
+                      <button type="submit" class="btn btn-primary">Filtrovať</button>
                     </div>
                   </li>
                   <li class="nav-item dropdown">
@@ -211,102 +211,183 @@
 
           <div class="container-fluid archiv-container">
               <div class="row archiv-row">
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="detail_produktu.html">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek1-200.jpg 200w,
+                              obrazky/oblek1-400.jpg 400w,
+                              obrazky/oblek1-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek1-600.jpg"
+                      alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
                       <div class="card-body">
-                        <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
+                        <h5 class="card-title">Pánsky oblek, tmavomodrý</h5>
                         <p class="card-text">370,00€</p>
-                        <a href="detail_produktu.html" class="btn btn-secondary">Pozrieť detail</a>
+                        <a href="detail_produktu.html" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="#">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek2-200.jpg 200w,
+                              obrazky/oblek2-400.jpg 400w,
+                              obrazky/oblek2-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek2-600.jpg"
+                      alt="Modrý oblek s vestou, kockovanou košeľou a žltou kravatou">
                       <div class="card-body">
                         <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
-                        <p class="card-text">370,00€</p>
-                        <a href="#" class="btn btn-secondary">Pozrieť detail</a>
+                        <p class="card-text">480,00€</p>
+                        <a href="#" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="#">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek3-200.jpg 200w,
+                              obrazky/oblek3-400.jpg 400w,
+                              obrazky/oblek3-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek3-600.jpg"
+                      alt="Zelený oblek s modrou košelou a pásikavou kravatou">
                       <div class="card-body">
-                        <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
-                        <p class="card-text">370,00€</p>
-                        <a href="#" class="btn btn-secondary">Pozrieť detail</a>
+                        <h5 class="card-title">Pánsky oblek s vestou, zelený</h5>
+                        <p class="card-text">420,00€</p>
+                        <a href="#" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="#">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek4-200.jpg 200w,
+                              obrazky/oblek4-400.jpg 400w,
+                              obrazky/oblek4-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek4-600.jpg"
+                      alt="Čierny oblek s vestou, bielou košeľou a motýlikom">
                       <div class="card-body">
-                        <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
-                        <p class="card-text">370,00€</p>
-                        <a href="#" class="btn btn-secondary">Pozrieť detail</a>
+                        <h5 class="card-title">Pánsky oblek s vestou a motýlikom, čierny</h5>
+                        <p class="card-text">500,00€</p>
+                        <a href="#" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="#">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek5-200.jpg 200w,
+                              obrazky/oblek5-400.jpg 400w,
+                              obrazky/oblek5-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek5-600.jpg"
+                      alt="Fialovo-modrý károvaný oblek s modrou kravatou">
                       <div class="card-body">
-                        <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
-                        <p class="card-text">370,00€</p>
-                        <a href="#" class="btn btn-secondary">Pozrieť detail</a>
+                        <h5 class="card-title">Károvaný pánsky oblek, fialovo modrý</h5>
+                        <p class="card-text">350,00€</p>
+                        <a href="#" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="#">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek6-200.jpg 200w,
+                              obrazky/oblek6-400.jpg 400w,
+                              obrazky/oblek6-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek6-600.jpg"
+                      alt="Sivomodrý oblek károvaný s pásikavou bielo-modrou košeľou a červenou kravatou">
                       <div class="card-body">
-                        <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
-                        <p class="card-text">370,00€</p>
-                        <a href="#" class="btn btn-secondary">Pozrieť detail</a>
+                        <h5 class="card-title">Károvaný pánsky oblek s vestou, sivomodrý</h5>
+                        <p class="card-text">420,00€</p>
+                        <a href="#" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="#">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek7-200.jpg 200w,
+                              obrazky/oblek7-400.jpg 400w,
+                              obrazky/oblek7-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek7-600.jpg"
+                      alt="Sivý károvaný oblek s bledomodrou košelou a tmavomodrou kravatou">
                       <div class="card-body">
-                        <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
-                        <p class="card-text">370,00€</p>
-                        <a href="#" class="btn btn-secondary">Pozrieť detail</a>
+                        <h5 class="card-title">Károvaný pánsky oblek s vestou, sivý</h5>
+                        <p class="card-text">350,00€</p>
+                        <a href="#" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="col- col-sm-6 col-lg-3">
+                <div class="col- col-sm-6 col-lg-3 archiv-column">
                   <div class="card">
                     <a href="#">
-                      <img src="obrazky/sako.jpg" class="card-img-top" alt="sako">
+                      <img
+                      srcset="obrazky/oblek8-200.jpg 200w,
+                              obrazky/oblek8-400.jpg 400w,
+                              obrazky/oblek8-600.jpg 600w"
+      
+                      sizes="(max-width: 576px) 200px,
+                            (max-width: 768px) 400px,
+                            600px"
+                          
+                      src="obrazky/oblek8-600.jpg"
+                      alt="Modrý károvaný oblek s vestou a bielou košelou">
                       <div class="card-body">
-                        <h5 class="card-title">Pánsky oblek s vestou, modrý</h5>
-                        <p class="card-text">370,00€</p>
-                        <a href="#" class="btn btn-secondary">Pozrieť detail</a>
+                        <h5 class="card-title">Károvaný pánsky oblek s vestou, modrý</h5>
+                        <p class="card-text">420,00€</p>
+                        <a href="#" class="btn btn-primary">Pozrieť detail</a>
                       </div>
                     </a>
                   </div>
                 </div>
+                
               </div>
           </div>
         </section>
