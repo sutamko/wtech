@@ -7,17 +7,13 @@
     top: 60px;
     background-color: white;
     z-index: 5;
+    display: none;
 }
 
 @media (min-width: 576px) {
     #added-product {
         width: 380px;
     }
-}
-
-#added-product .added-product-description {
-    display: flex;
-    flex-direction: column;
 }
 
 #added-product h2 {
@@ -48,6 +44,10 @@ main {
 .product-name {
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.detail {
+    margin-bottom: 50px;
 }
 
 .price {

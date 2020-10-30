@@ -29,3 +29,7 @@ body main button {
     margin-bottom: 10px;
     width: 100%;
 }
+
+form {
+    margin-bottom: 50px;
+}

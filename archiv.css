@@ -69,6 +69,10 @@ main .btn {
     margin-bottom: 15px;
 }
 
+main {
+    margin-bottom: 50px;
+}
+
 .dropdown button {
     width: 110px;
 }
@@ -90,4 +94,12 @@ main .btn {
 
 .card-text:last-child {
     margin-bottom: 10px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.page-link {
+    color: black;
 }

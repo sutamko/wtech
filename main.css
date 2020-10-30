@@ -51,7 +51,7 @@
 
 .search-icon {
     width: 30px;
-    content:url("https://www.flaticon.com/svg/static/icons/svg/622/622669.svg");
+    content:url("obrazky/magnifier.svg");
 }
 
 #search_input {
@@ -83,15 +83,16 @@
 
 /* buttony */
 .btn-primary {
-    color: #000;
-    background-color: transparent;
-    border-color: #6c757d;
+    color: white;
+    background-color: #002b73;
+    border-color: #002b73;
     border-radius: 0%;
 }
 
 .btn-primary:focus, .btn-primary:hover, .btn:active, .btn:visited {
     box-shadow: none;
     background-color: #002b73;
+    border-color: #002b73;
 }
 
 
@@ -111,6 +112,18 @@ a {
     list-style-type: none;
     justify-content: center;
     padding: 0;
+}
+
+.fb-icon {
+    content:url("obrazky/fb.svg");
+}
+
+.insta-icon {
+    content:url("obrazky/insta.svg");
+}
+
+.twitter-icon {
+    content:url("obrazky/twitter.svg");
 }
 
 footer {

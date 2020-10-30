@@ -80,10 +80,21 @@
             <div class="col-8 added-product-description">
               <h3>Pánsky oblek, tmavomodrý</h3>
 
-              <span>307,00 €</span>
-              <span>Veľkosť: 50</span>
-              <span>Farba: Modrá</span>
-              <span>Množstvo: 1</span>                   
+              <div class="product_price">
+                <span>307,00</span>
+                <span>€</span>
+              </div> 
+
+              <div class="product_size">
+                  <span>Veľkosť:</span>
+                  <span>50</span>
+              </div> 
+
+              <div class="product_color">
+                  <span>Farba:</span>
+                  <span>Modrá</span>
+              </div>
+
             </div>                       
           </div> 
         </div>
@@ -91,20 +102,50 @@
         <section class="detail">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-8">
-                        <img src="obrazky/oblek.jpg" alt="Obleky">
+                    <div class="col-md-7">
+                      <img
+                      srcset="obrazky/oblek1-600.jpg 600w,
+                              obrazky/oblek1-800.jpg 800w,
+                              obrazky/oblek1-1000.jpg 1000w"
+      
+                      sizes="(max-width: 576px) 600px,
+                            (max-width: 768px) 800px,
+                            1000px"
+                          
+                      src="obrazky/oblek1-800.jpg"
+                      alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
                         <div class="container-fluid">
                             <div class="row small-product-pictures">
                                 <div class="col-6 picture1">
-                                    <img src="obrazky/oblek.jpg" alt="Obleky">
+                                  <img
+                                  srcset="obrazky/oblek1-200.jpg 200w,
+                                          obrazky/oblek1-400.jpg 400w,
+                                          obrazky/oblek1-600.jpg 600w"
+                  
+                                  sizes="(max-width: 576px) 200px,
+                                        (max-width: 768px) 400px,
+                                        600px"
+                                      
+                                  src="obrazky/oblek1-400.jpg"
+                                  alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
                                 </div>
                                 <div class="col-6 picture2">
-                                    <img src="obrazky/oblek.jpg" alt="Obleky">
+                                  <img
+                                  srcset="obrazky/oblek1-200.jpg 200w,
+                                          obrazky/oblek1-400.jpg 400w,
+                                          obrazky/oblek1-600.jpg 600w"
+                  
+                                  sizes="(max-width: 576px) 200px,
+                                        (max-width: 768px) 400px,
+                                        600px"
+                                      
+                                  src="obrazky/oblek1-400.jpg"
+                                  alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 product-description">
+                    <div class="col-md-5 product-description">
                         <div class="div-sticky">
                             <h3 class="product-name">Pánsky oblek, tmavomodrý</h3>
                             <h4 class="price">300,00€</h4>
@@ -140,7 +181,7 @@
                                     <option>10</option>
                                   </select>
                                 </div>
-                                <button id="add-to-bag-btn" type="submit" claprimary">Vložiť do košíka</button>
+                                <button id="add-to-bag-btn" type="button" class="btn btn-primary">Vložiť do košíka</button>
                               </div>
                             </form>
                             <div class="product-info">
@@ -164,24 +205,24 @@
 
     <footer>
       <div>
-          <h2>KM</h2>
-          <p id="footer-slogan">Najprestížnejšia značka oblekov od roku 1989.</p>
-          <ul id="footer-social">
-            <li>
-                <a href="https://www.facebook.com">
-                    <img class="icons-img" src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/?hl=sk">
-                    <img class="icons-img" src="https://www.flaticon.com/svg/static/icons/svg/1384/1384015.svg">
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/?lang=sk">
-                    <img class="icons-img" src="https://www.flaticon.com/svg/static/icons/svg/1384/1384017.svg">
-                </a>
-            </li>
+        <h2>KM</h2>
+        <p id="footer-slogan">Najprestížnejšia značka oblekov od roku 1989.</p>
+        <ul id="footer-social">
+          <li>
+              <a href="https://www.facebook.com">
+                  <img class="icons-img fb-icon">
+              </a>
+          </li>
+          <li>
+              <a href="https://www.instagram.com/?hl=sk">
+                  <img class="icons-img insta-icon">
+              </a>
+          </li>
+          <li>
+              <a href="https://twitter.com/?lang=sk">
+                  <img class="icons-img twitter-icon">
+              </a>
+          </li>
         </ul>
       </div>
 
@@ -217,8 +258,12 @@
 
   <script>
     document.getElementById("add-to-bag-btn").addEventListener("click", function() {
-    var cardAdded = document.getElementById("added-product");
-    cardAdded.style.display = 'block';
+      var cardAdded = document.getElementById("added-product");
+      cardAdded.style.display = 'block';
+      $("#added-product").show(3000);
+      setTimeout(function() { 
+        $("#added-product").hide(); 
+      }, 3000); 
     });
 
     document.getElementById("added-product").addEventListener("click", function() {
