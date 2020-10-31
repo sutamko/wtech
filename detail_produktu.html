@@ -6,200 +6,189 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="detail_produktu.css">
-    <link rel="stylesheet" href="o_nas.css">
     <title>Produkt detail</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <button id="navbar-toggler-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="myclass collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="menu_navbar">
-              <li class="nav-item">
-                <a class="nav-link" href="homepage.html">KM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="homepage.html">Domov<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="produkty.html">Produkty</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="o_nas.html">O nás</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="kontakt.html">Kontakt</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0" id="form_search">
-              <input class="form-control mr-sm-2 navbar-search-input" type="search" placeholder="Vyhľadať" aria-label="Search" id="search_input">
-              <button type="submit" id="button_search">
-                <img class="search-icon">
-              </button>
-            </form>
-          </div>
-          <div class="navbar-icons">
-            <div class="btn-group dropleft" id="user_button">
-              <button class="btn btn-primary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="user-icon">
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <span class="dropdown-item">Prihlásený: <span id="signed_user">Matúš Miklovič</span></span>
-                <form>
-                  <a class="dropdown-item" href="#">Odhlásiť sa</a>
-                </form>
-              </div>
+        <button id="navbar-toggler-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="myclass collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="menu_navbar">
+            <li class="nav-item">
+              <a class="nav-link" href="homepage.html">KM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="homepage.html">Domov<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="produkty.html">Produkty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">O nás</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" id="form_search">
+            <input class="form-control mr-sm-2 navbar-search-input" type="search" placeholder="Vyhľadať" aria-label="Search" id="search_input">
+            <button type="submit" id="button_search">
+              <img class="search-icon">
+            </button>
+          </form>
+        </div>
+        <div class="navbar-icons">
+          <div class="btn-group dropleft" id="user_button">
+            <button class="btn btn-primary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="user-icon">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <span class="dropdown-item">Prihlásený: <span id="signed_user">Matúš Miklovič</span></span>
+              <form>
+                <a class="dropdown-item" href="#">Odhlásiť sa</a>
+              </form>
             </div>
-            <a href="prazdny_kosik.html">
-              <img class="shopping-bag-icon">        
-            </a>
           </div>
-        </nav>
+          <a href="prazdny_kosik.html">
+            <img class="shopping-bag-icon">        
+          </a>
+        </div>
+      </nav>
     </header>
     
     <main>
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="homepage.html">Domov</a></li>
-              <li class="breadcrumb-item"><a href="produkty.html">Produkty</a></li>
-              <li class="breadcrumb-item"><a href="archiv.html">Obleky</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Pánsky oblek, tmavomodrý</li>
-            </ol>
-        </nav>
 
-        <div id="added-product" class="container">
-          <h2>Produkt bol pridaný do košíka!</h2>
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="homepage.html">Domov</a></li>
+            <li class="breadcrumb-item"><a href="produkty.html">Produkty</a></li>
+            <li class="breadcrumb-item"><a href="archiv.html">Obleky</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Pánsky oblek, tmavomodrý</li>
+          </ol>
+      </nav>
+
+      <div id="added-product" class="container">
+        <h2>Produkt bol pridaný do košíka!</h2>
+        <div class="row">
+          <div class="col-4">
+            <a href="#">
+                <img style="width: 100%" src="obrazky/oblek.jpg" alt="" class="product_image">
+            </a>                
+          </div>
+          <div class="col-8 added-product-description">
+            <h3>Pánsky oblek, tmavomodrý</h3>
+            <div class="product_price">
+              <span>307,00</span>
+              <span>€</span>
+            </div> 
+            <div class="product_size">
+                <span>Veľkosť:</span>
+                <span>50</span>
+            </div> 
+            <div class="product_color">
+                <span>Farba:</span>
+                <span>Modrá</span>
+            </div>
+          </div>                       
+        </div> 
+      </div>
+
+      <section class="detail">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-4">
-              <a href="#">
-                  <img style="width: 100%" src="obrazky/oblek.jpg" alt="" class="product_image">
-              </a>                
-            </div>
-            <div class="col-8 added-product-description">
-              <h3>Pánsky oblek, tmavomodrý</h3>
-
-              <div class="product_price">
-                <span>307,00</span>
-                <span>€</span>
-              </div> 
-
-              <div class="product_size">
-                  <span>Veľkosť:</span>
-                  <span>50</span>
-              </div> 
-
-              <div class="product_color">
-                  <span>Farba:</span>
-                  <span>Modrá</span>
-              </div>
-
-            </div>                       
-          </div> 
-        </div>
-
-        <section class="detail">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-7">
-                      <img
-                      srcset="obrazky/oblek1-600.jpg 600w,
-                              obrazky/oblek1-800.jpg 800w,
-                              obrazky/oblek1-1000.jpg 1000w"
-      
-                      sizes="(max-width: 576px) 600px,
-                            (max-width: 768px) 800px,
-                            1000px"
-                          
-                      src="obrazky/oblek1-800.jpg"
-                      alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
-                        <div class="container-fluid">
-                            <div class="row small-product-pictures">
-                                <div class="col-6 picture1">
-                                  <img
-                                  srcset="obrazky/oblek1-200.jpg 200w,
-                                          obrazky/oblek1-400.jpg 400w,
-                                          obrazky/oblek1-600.jpg 600w"
-                  
-                                  sizes="(max-width: 576px) 200px,
-                                        (max-width: 768px) 400px,
-                                        600px"
-                                      
-                                  src="obrazky/oblek1-400.jpg"
-                                  alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
-                                </div>
-                                <div class="col-6 picture2">
-                                  <img
-                                  srcset="obrazky/oblek1-200.jpg 200w,
-                                          obrazky/oblek1-400.jpg 400w,
-                                          obrazky/oblek1-600.jpg 600w"
-                  
-                                  sizes="(max-width: 576px) 200px,
-                                        (max-width: 768px) 400px,
-                                        600px"
-                                      
-                                  src="obrazky/oblek1-400.jpg"
-                                  alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5 product-description">
-                        <div class="div-sticky">
-                            <h3 class="product-name">Pánsky oblek, tmavomodrý</h3>
-                            <h4 class="price">300,00€</h4>
-                            <form product-detail-form>
-                              <div class="form-group">
-                                <div class="form-group">
-                                  <label for="inputState">Veľkosť</label>
-                                  <select id="inputState" class="form-control">
-                                    <option selected>Vyberte veľkosť</option>
-                                    <option>42</option>
-                                    <option>44</option>
-                                    <option>46</option>
-                                    <option>48</option>
-                                    <option>50</option>
-                                    <option>52</option>
-                                    <option>54</option>
-                                    <option>56</option>
-                                  </select>
-                                </div>
-                                <div class="form-group">
-                                  <label for="inputState">Množstvo</label>
-                                  <select id="inputState" class="form-control">
-                                    <option selected>Vyberte množstvo</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6</option>
-                                    <option>7</option>
-                                    <option>8</option>
-                                    <option>9</option>
-                                    <option>10</option>
-                                  </select>
-                                </div>
-                                <button id="add-to-bag-btn" type="button" class="btn btn-primary">Vložiť do košíka</button>
-                              </div>
-                            </form>
-                            <div class="product-info">
-                              <h5>Materiál</h5>
-                              <p>
-                                98% vlna, 2% elastán
-                              </p>
-                              <h5>Farba</h5>
-                              <p>
-                                Modrá
-                              </p>
-                            </div>
-                                                                            
-                        </div>  
-                    </div>
+            <div class="col-md-7">
+              <img
+              srcset="obrazky/oblek1-600.jpg 600w,
+                      obrazky/oblek1-800.jpg 800w,
+                      obrazky/oblek1-1000.jpg 1000w"     
+              sizes="(max-width: 576px) 600px,
+                    (max-width: 768px) 800px,
+                    1000px"                          
+              src="obrazky/oblek1-800.jpg"
+              alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
+              <div class="container-fluid">
+                <div class="row small-product-pictures">
+                  <div class="col-6 picture1">
+                    <img
+                    srcset="obrazky/oblek1-200.jpg 200w,
+                            obrazky/oblek1-400.jpg 400w,
+                            obrazky/oblek1-600.jpg 600w"                  
+                    sizes="(max-width: 576px) 200px,
+                          (max-width: 768px) 400px,
+                          600px"                                     
+                    src="obrazky/oblek1-400.jpg"
+                    alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
+                  </div>
+                  <div class="col-6 picture2">
+                    <img
+                    srcset="obrazky/oblek1-200.jpg 200w,
+                            obrazky/oblek1-400.jpg 400w,
+                            obrazky/oblek1-600.jpg 600w"                 
+                    sizes="(max-width: 576px) 200px,
+                          (max-width: 768px) 400px,
+                          600px"                                     
+                    src="obrazky/oblek1-400.jpg"
+                    alt="Modrý oblek s ružovou košeľou a pásikavou kravatou">
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+            <div class="col-md-5 product-description">
+              <div class="div-sticky">
+                <h3 class="product-name">Pánsky oblek, tmavomodrý</h3>
+                <h4 class="price">300,00€</h4>
+                <form product-detail-form>
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label for="inputState">Veľkosť</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Vyberte veľkosť</option>
+                        <option>42</option>
+                        <option>44</option>
+                        <option>46</option>
+                        <option>48</option>
+                        <option>50</option>
+                        <option>52</option>
+                        <option>54</option>
+                        <option>56</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputState">Množstvo</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Vyberte množstvo</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                    <button id="add-to-bag-btn" type="button" class="btn btn-primary">Vložiť do košíka</button>
+                  </div>
+                </form>
+                <div class="product-info">
+                  <h5>Materiál</h5>
+                  <p>
+                    98% vlna, 2% elastán
+                  </p>
+                  <h5>Farba</h5>
+                  <p>
+                    Modrá
+                  </p>
+                </div>                                                    
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
 
@@ -209,50 +198,50 @@
         <p id="footer-slogan">Najprestížnejšia značka oblekov od roku 1989.</p>
         <ul id="footer-social">
           <li>
-              <a href="https://www.facebook.com">
-                  <img class="icons-img fb-icon">
-              </a>
+            <a href="https://www.facebook.com">
+                <img class="icons-img fb-icon">
+            </a>
           </li>
           <li>
-              <a href="https://www.instagram.com/?hl=sk">
-                  <img class="icons-img insta-icon">
-              </a>
+            <a href="https://www.instagram.com/?hl=sk">
+                <img class="icons-img insta-icon">
+            </a>
           </li>
           <li>
-              <a href="https://twitter.com/?lang=sk">
-                  <img class="icons-img twitter-icon">
-              </a>
+            <a href="https://twitter.com/?lang=sk">
+                <img class="icons-img twitter-icon">
+            </a>
           </li>
         </ul>
       </div>
 
       <div class="container" id="footer-container">
-          <div class="row">
-              <div class="col-md-3">
-                  <a href="homepage.html">
-                    Domov
-                  </a>
-              </div>
-              <div class="col-md-3">
-                <a href="produkty.html">
-                  Produkty
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="o_nas.html">
-                  O nás
-                </a>
-              </div>
-              <div class="col-md-3">
-                <a href="kontakt.html">
-                  Kontakt
-                </a>
-              </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="homepage.html">
+              Domov
+            </a>
           </div>
+          <div class="col-md-3">
+            <a href="produkty.html">
+              Produkty
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              O nás
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              Kontakt
+            </a>
+          </div>
+        </div>
       </div>
 
       <div>
-          <p>© 2020 KM. Všetky práva vyhradené.</p>
+        <p>© 2020 KM. Všetky práva vyhradené.</p>
       </div>
   </footer> 
 
